@@ -1,0 +1,20 @@
+<GeocodeFeed>
+  <GeocodeEntity Id="001"
+             xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">
+    <GeocodeRequest Culture="en US">
+      <Address AddressLine="291 Broadway" AdminDistrict="NY" Locality="New York"
+               PostalCode="10007" />
+    </GeocodeRequest>
+  </GeocodeEntity>
+  <GeocodeEntity Id="002"
+             xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">
+    <GeocodeRequest Culture="en US">
+      <Address AddressLine="599 Broadway" AdminDistrict="NY" Locality="New York" />
+      <ConfidenceFilter MinimumConfidence="High" xmlns="" />
+    </GeocodeRequest>
+  </GeocodeEntity>
+  <GeocodeEntity Id="003"
+            xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">
+    <GeocodeRequest Culture="en US" Query="Empire State Building" />
+  </GeocodeEntity>
+</GeocodeFeed>
