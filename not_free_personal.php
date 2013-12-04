@@ -15,7 +15,7 @@ if(isset($_GET['zipcode'])||isset($_POST['zipcode'])){
 	}//echo $zipcode;
 
 	//echo $zipcode;
-	$i = 0;
+	$i = 0; 
 	$addr="";
 	$name = "";
 	$website="";
