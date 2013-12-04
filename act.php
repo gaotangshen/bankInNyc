@@ -4,3 +4,4 @@
 	$db = new mysql("localhost","root","","bankinnyc","gbk");
 	//mysql_close();
 
+//ssss
